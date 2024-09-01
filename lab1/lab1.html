@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home Page
+        <style>
+            /* Style for the header */
+            #header {
+                min-height: 40px;
+                text-align: center; 
+                font-family: 'Georgia', serif;
+                font-size: 30px;
+                font-variant: small-caps; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #f0f0f0; 
+                color: #333;
+                }
+        
+        </style>
+    </title>
+    
+</head>
+
+<body style="background-color: black;">
+
+    <div id="header">
+        <h1>Hi!, I am Ayobami and Welcome to my Page
+        </h1>
+    </div>
+
+    <div id="about">
+        <div>
+            <img src="./img/AY.jpg" alt="My image" style="float:left;width: 300px; border-radius: 20%;">
+            <h2>About Me </h2>
+            <p> Hello! I’m Ayobami Oni, a passionate graduate student with a keen interest in groundwater systems and sustainable technology. 
+                Currently, I’m pursuing my graduate studies in the Department of Agricultural and Biological Engineering, where I specialize in groundwater systems. 
+                My journey has been fueled by a desire to blend traditional knowledge with cutting-edge technology to create sustainable solutions. 
+                I’m particularly interested in adopting hydrological modeling, embedded systems and remote sensing skills , knowledge and ideas to tackle complex challenges that have a real-world impact especially as regards water conservation and remediation. 
+                In my work, I focus on projects that contribute to limiting the effect of climate action, and improving water management, thereby leading to sustainable agricultural practices for farmers.  My current project, the RRIV-projects, allows me to dive deep into developing innovative models for groundwater flow, enhancing sensor technology for environmental monitoring.   
+            </p>
+            <p>
+                Beyond my academic and professional pursuits, I’m an avid photographer, tech enthusiast and I love playing soccer. 
+                I believe in lifelong learning and am always on the lookout for new ways to grow and contribute to my community to make the world a better place. 
+
+            </p>
+            <p>
+                Thank you for visiting my site! Feel free to reach out via my socials if you’d like to connect or learn more about my work. 
+            </p>
+
+        </div>
+    </div>
+
+    <div id="work-samples">
+        <div style="text-align:center">
+            <h2>Work-samples</h2>
+            <p> This section showcases the projects I am currently working on and the tools I am using to achieve my goals for each project. 
+                Click on the boxes below to reveal each project and take a look
+            </p>
+          </div>
+          
+          <!-- Three columns -->
+          <div style="display: flex;">
+            <div class="column" onclick="openTab('b1');" style="background:green;">
+              Project 1
+            </div>
+            <div class="column" onclick="openTab('b2');" style="background:blue;">
+              Project 2
+            </div>
+            <div class="column" onclick="openTab('b3');" style="background:red;">
+              Project 3
+            </div>
+          </div>
+          
+          <!-- Full-width columns: (hidden by default) -->
+          <div id="b1" class="containerTab" style="display:none;background:green;">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <div style="display: flex; flex-direction: column;">
+                <div>
+                    <h2>Simulation and Modeling</h2>
+                </div>
+                <div style="text-align: center;"><img src="./img/simulation.jpg" alt="My image" style="width: 200px;"></div>
+                <div style="text-align: center;">
+                    <ul style="list-style-type:none;">
+                        <li>Ansys</li>
+                        <li>OpenFoam</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+          
+          <div id="b2" class="containerTab" style="display:none;background:blue">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <div style="display: flex; flex-direction: column;">
+                <div>
+                    <h2>Building and Development</h2> 
+                </div>
+                <div style="text-align: center;"><img src="./img/lab.jpeg" alt="My image" style="width: 200px;"></div>
+                <div style="text-align: center;">
+                    <ul style="list-style-type:none;"> 
+                        <li>Sensors</li>
+                        <li>Board Development</li>
+                    </ul>
+                </div>
+            </div>        
+          </div>
+          
+          <div id="b3" class="containerTab" style="display:none;background:red">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <div style="display: flex; flex-direction: column;">
+                <div>
+                    <h2>Code Generation and Software Building</h2>
+                </div>
+                <div style="text-align: center;"><img src="./img/code.png" alt="My image" style="width: 200px;"></div>
+                <div style="text-align: center;">
+                    <ul style="list-style-type:none;"> 
+                        <li>Arduino programming Language</li>
+                        <li>C programming language</li>
+                    </ul>
+                </div>
+            </div>
+            
+          </div>
+          
+          <script>
+          function openTab(tabName) {
+            var i, x;
+            x = document.getElementsByClassName("containerTab");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            document.getElementById(tabName).style.display = "block";
+          }
+          </script>
+        
+
+    </div> 
+        
+        
+    <div id="footer">
+        <ul class="socials">
+            <h3 style="color: black;">Connect with me via my socials:</h3>
+            <li><a href="https://facebook.com" target="_blank" class="fa fa-facebook"></a></li>
+            <li><a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a></li>
+            <li><a href="https://mail.google.com/" target="_blank" class="fa fa-envelope"></a></li>
+            <li><a href="https://github.com" target="_blank" class="fa fa-github"></a></li>
+        </ul>
+        <p font style="color: black;">Author: @Ayobami Oni<br> last updated: August, 30th 2024.</p>
+        
+
+        <div id="footer">
+            <p>Connect with me via my socials:</p>
+            <li><a href="https://facebook.com" target="_blank" class="fa fa-facebook">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank" class="fa fa-twitter">Twitter</a></li>
+            <li><a href="https://mail.google.com/" target="_blank" class="fa fa-envelope">Gmail</a></li>
+            <li><a href="https://github.com" target="_blank" class="fa fa-github">GitHub</a></li>
+            <p font style="color: white-space: inherit;;">Author: @Ayobami Oni<br> last updated: August, 30th 2024.</p>
+        </div>
+    </div>
+</body>
+
+</html>

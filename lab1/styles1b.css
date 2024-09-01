@@ -1,0 +1,213 @@
+
+h1 {
+    color: rgb(161, 30, 30);
+    background-color: bisque;
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-synthesis-small-caps:auto ;
+}
+
+h2 {
+  color: rgb(16, 198, 243);
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-synthesis-small-caps:auto ;
+}
+
+
+a:link, a:visited {
+    background-color: #072af55e;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+#about{
+  display: flex;
+  flex-grow: 1;
+p {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(244, 247, 248);
+}
+
+img {
+    border: 2px solid black; 
+    width:300px;
+}
+}
+
+#work-sample
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that float next to each other */
+.column {
+  float: left;
+  flex-grow: 1;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+#footer {
+  background-color: #f0f0f0; 
+  padding: 10px;
+  text-align: center;
+}
+/*
+.socials {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #333;
+}
+
+.socials a:hover {
+  color: #0073e6;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  text-align: left;
+  text-decoration: none;
+  color: rgb(244, 247, 248);
+}
+*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  min-height: 40px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 30px;
+  font-variant: small-caps;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+img {
+  width: 150px;
+  border: 2px solid black; /* Example of adding a border to an image */
+}
+
+/* Footer styles */
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#footer li {
+  display: inline;
+  margin: 0 10px;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  background-color: #333;
+  text-align: center;
+  color: white;
+  position: relative;
+  animation: mymove 5s infinite;
+  }
+
+  header p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+
+  header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+  header li {
+  display: inline-block;
+  margin: 0 10px;
+  }
+
+  header a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  }
+
+  @keyframes mymove {
+  0%   {top: 0px;}
+  25%  {top: 200px;}
+  75%  {top: 50px;}
+  100% {top: 100px;}
+  }    
+

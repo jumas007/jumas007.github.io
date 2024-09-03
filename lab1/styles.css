@@ -2,7 +2,7 @@
 h1 {
     color: rgb(161, 30, 30);
     background-color: bisque;
-    font-size: 80px;
+    font-size: 90px;
     font-family: sans-serif;
     text-align: center;
     justify-content: center;
@@ -136,13 +136,13 @@ body {
   min-height: 40px;
   text-align: center;
   font-family: 'Georgia', serif;
-  font-size: 30px;
+  font-size: 150px;
   font-variant: small-caps;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: #080808;
+  color: #ca0d0d;
 }
 
 img {
